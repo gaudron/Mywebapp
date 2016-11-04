@@ -1,4 +1,4 @@
-package com.example.mywebapp.shared;
+//package com.example.mywebapp.shared;
 
 /**
  * <p>
@@ -20,7 +20,7 @@ package com.example.mywebapp.shared;
  * JavaScript (such as Widgets) cannot be run on the server.
  * </p>
  */
-public class FieldVerifier {
+//public class FieldVerifier {
 
 	/**
 	 * Verifies that the specified name is valid for our service.
@@ -33,10 +33,10 @@ public class FieldVerifier {
 	 * @param name the name to validate
 	 * @return true if valid, false if invalid
 	 */
-	public static boolean isValidName(String name) {
+/*	public static boolean isValidName(String name) {
 		if (name == null) {
 			return false;
 		}
 		return name.length() > 3;
 	}
-}
+}*/

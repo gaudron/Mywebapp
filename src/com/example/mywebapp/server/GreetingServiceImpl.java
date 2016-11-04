@@ -1,13 +1,13 @@
-package com.example.mywebapp.server;
+/*package com.example.mywebapp.server;
 
 import com.example.mywebapp.client.GreetingService;
 import com.example.mywebapp.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-
+*/
 /**
  * The server-side implementation of the RPC service.
  */
-@SuppressWarnings("serial")
+/*@SuppressWarnings("serial")
 public class GreetingServiceImpl extends RemoteServiceServlet implements GreetingService {
 
 	public String greetServer(String input) throws IllegalArgumentException {
@@ -27,7 +27,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 
 		return "Hello, " + input + "!<br><br>I am running " + serverInfo + ".<br><br>It looks like you are using:<br>"
 				+ userAgent;
-	}
+	}*/
 
 	/**
 	 * Escape an html string. Escaping data received from the client helps to
@@ -36,10 +36,11 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 	 * @param html the html string to escape
 	 * @return the escaped string
 	 */
-	private String escapeHtml(String html) {
+	/*private String escapeHtml(String html) {
 		if (html == null) {
 			return null;
 		}
 		return html.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 	}
 }
+*/
